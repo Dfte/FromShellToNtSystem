@@ -1,3 +1,6 @@
+#Written by Defte for whiteflagfr.wordpress.com
+#Created for a pentest mission, don't use this for miss behavior.
+
 #This script is to be used when you have a windows remote shell (typically telnet) and you can wite data in files
 #using the following syntax : "echo whatever >> my_file"
 #The script first encode an exe into a base64 file, send it on the remote computer and then send a vbs script
