@@ -12,6 +12,10 @@ import subprocess
 import time
 
 #We need four options to run the script
+#The path to the executable you want to launch on the remote computer
+#The target IP
+#The Telnet account username
+#The Telnet account password
 if len(sys.argv) != 5 :
 	print("Usage : python3 ShellToExe.py executable.exe target username password\n")
 	print("The executable.exe will be encoded into base64 and then transfered to the remote computer\n")
